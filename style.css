@@ -13,8 +13,8 @@ box-shadow: 20px 20px 15px rgba(30, 10, 50, 0.3);
 transition: 0.5s;
 }
 
-#card:{
-  transform:scale(1.2)
+#card:hover{
+  transform: scale(1.2)
 }
 
 #content {
@@ -42,13 +42,18 @@ h1{
    }
 
 footer{
-    font-size: 80px;
+  color: #FFF;
+    font-size: 40px;
+    text-transform: uppercase;
     margin: 60px;
     text-align: center;
-    letter-spacing: 50px;
-    padding-left: 50px;
+    letter-spacing: 30px;
+    padding-left: 30px;
     opacity: 0.1;
     font-weight: 800;
 
 }
 
+body {
+  background-color: rgb(30, 28, 34);
+}
