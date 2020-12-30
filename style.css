@@ -5,18 +5,25 @@
 }
 
 #card{
-    background-image: url(https://images.unsplash.com/photo-1606741633236-61105e39c6e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=869&q=80) ;
+    background-image: url(https://images.unsplash.com/photo-1563260468-7628d02272d1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80) ;
 width: 600px;
 margin: 100px auto 0 ;
 padding:200px 50px 50px ;
+box-shadow: 20px 20px 15px rgba(30, 10, 50, 0.3);
+transition: 0.5s;
+}
 
+#card:{
+  transform:scale(1.2)
 }
 
 #content {
-    background-color: rgba(255, 255, 255, 0.568);
-    color: rgb(32, 95, 95);
+    background-color: rgba(30, 40, 57, 0.8);
+    color: #ffffff;
     padding: 30px 20px ;
 }
+
+
 
 h1{
     font-size: 40px;
@@ -24,13 +31,14 @@ h1{
    }
    
    h2{
-     font-size: 30px;
-     margin-bottom: 10px;
+     font-size: 20px;
+     margin-bottom: 30px;
    }
    
    ul{
-     font-size: 18px;
+     font-size: 15px;
      margin-bottom: 10px;
+     line-height: 2;
    }
 
 footer{
